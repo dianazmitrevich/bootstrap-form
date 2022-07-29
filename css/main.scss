@@ -1,0 +1,50 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.product-list-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 40px 0;
+}
+
+.btn-uppercase {
+   text-transform: uppercase;
+   margin-left: 12px;
+}
+
+.py-3 {
+   display: flex;
+   justify-content: left;
+   padding-bottom: 0 !important;
+}
+
+.delete-checkbox {
+   margin-left: 20px;
+}
+
+.row-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.mr-4 {
+   width: 17%;
+}
+
+.form-control {
+   width: 83%;
+}
+
+.form-select {
+   width: 73%;
+}
+
+.hide {
+   display: none;
+}
+
+.invalid-feedback {
+   margin-left: 17%;
+}
